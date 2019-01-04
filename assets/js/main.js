@@ -35,6 +35,7 @@ function toggleSidebar() {
 
 
 function toggleSidebarMobile() {
+
     if (sideBar.classList == 'sidebar' || sideBar.classList == 'sidebar-initial') {
         sideBarToggleMobile.firstElementChild.classList = 'fas fa-angle-right';
         sideBar.classList = 'sidebar-m';
