@@ -66,14 +66,6 @@ a {
     transition: 0.2s;
 }
 
-.row-main {
-    width: 100%;
-    height: 100%;
-    display: block;
-    clear: both;
-    box-sizing: border-box;
-}
-
 .row {
     width: 100%;
     display: block;
@@ -121,7 +113,8 @@ hr {
     margin-top: -1px;
     width: 98%;
     text-align: left;
-    margin-left: 0;
+    margin-left: 20px;
+    margin-right: 100px;
 }
 
 .sidebar-toggle {
@@ -278,7 +271,6 @@ hr {
 .content-f {
     z-index: 100;
     width: 100%;
-    margin-left: 0;
     height: 100%;
     position: fixed;
     overflow-y: scroll;
@@ -314,54 +306,6 @@ hr {
 
 #contactme ul {
     list-style-type: none;
-}
-
-.chart {
-    display: table;
-    table-layout: fixed;
-    width: 90%;
-    max-width: 700px;
-    height: 300px;
-    margin: 0 auto;
-    background-size: 100% 50px;
-    background-position: left top;
-    padding: 0;
-    padding-bottom: 40px;
-}
-
-.chart li {
-    position: relative;
-    display: table-cell;
-    vertical-align: bottom;
-    height: 300px;
-    text-align: center;
-}
-
-.chart span {
-    margin: 0 1em;
-    display: block;
-    background: rgba(70, 70, 70, 0.80);
-    animation: draw 1s ease-in-out;
-}
-
-.chart span:before {
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 100%;
-    padding: 5px 0px;
-    display: block;
-    text-align: center;
-    content: attr(title);
-    word-wrap: break-word;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 90%;
-}
-
-@keyframes draw {
-    0% {
-        height: 0;
-    }
 }
 
 /* Media Queries */
@@ -414,13 +358,6 @@ hr {
         padding: 2px;
     }
 
-    .chart {
-        width: 98%;
-    }
-
-    .chart * {
-        font-size: 92%;
-    }
 }
 
 @media only screen and (max-width: 725px) {
@@ -486,24 +423,8 @@ hr {
         width: 100%;
     }
 
-    .chart {
-        width: 95%;
-    }
-
-    .chart * {
-        font-size: 98%;
-    }
-
     .col {
         width: 100%;
     }
 }
 
-@media only screen and (max-width: 375px) {
-    .chart {
-        width: 100%;
-    }
-    .chart * {
-        font-size: 92%;
-    }
-}
