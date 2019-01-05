@@ -10,14 +10,18 @@
     {%- include header.html -%}
 
     <div id="content" class="content">
-      <main id="page-content" class="page-content" aria-label="Content">
-        <div class="wrapper">
-          {{ content }}
-        </div>
-        <span id="sidebar-toggle" class="sidebar-toggle">
-            <i class="fas fa-angle-left"></i>
-        </span>
-      </main>
+      <div class="div-main">
+        <div id="blog" class="label-1">Blog</div>
+        <hr>
+        <main id="page-content" class="page-content" aria-label="Content">
+          <div class="wrapper">
+            {{ content }}
+          </div>
+        </main>
+      </div>
+      <span id="sidebar-toggle" class="sidebar-toggle">
+          <i class="fas fa-angle-left"></i>
+      </span>
     </div>
     
     {%- include footer.html -%}
