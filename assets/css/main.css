@@ -316,6 +316,12 @@ hr {
     list-style-type: none;
 }
 
+.center-image
+{
+    margin: 0 auto;
+    display: block;
+}
+
 /* Media Queries */
 @media only screen and (max-width: 1024px) {
     .sidebar {
