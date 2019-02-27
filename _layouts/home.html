@@ -19,8 +19,7 @@ layout: default
         <h3>
           <a class="post-link" href="{{ post.url | relative_url }}">
             {{ post.title | escape }}
-          </a>
-          {%- include read_time.html content=post.content -%}        
+          </a>        
         </h3>
         {%- if site.show_excerpts -%}
           {{ post.excerpt }}
