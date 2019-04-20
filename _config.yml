@@ -19,7 +19,7 @@ email: malviyakshat@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Welcome to my blog. Here I post my writings from
   time-to-time or whenever I find something apocalyptic.
-baseurl: "/blog/" # the subpath of your site, e.g. /blog
+baseurl: "blog/" # the subpath of your site, e.g. /blog
 url: "https://akshat157.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: akshatmalviya
 github_username:  akshat157
